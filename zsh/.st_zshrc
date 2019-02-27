@@ -17,6 +17,7 @@ prompt pure
 precmd_pipestatus() {
         RPROMPT="${(j.|.)pipestatus}"
 }
+add-zsh-hook precmd precmd_pipestatus
 
 #Syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
