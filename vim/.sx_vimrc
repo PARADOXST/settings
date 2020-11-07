@@ -1,4 +1,5 @@
 " put so ${this_location} in ~/.vimrc
+" run https://github.com/junegunn/vim-plug#vim then open vim and run PlugInstall
 call plug#begin('~/.vim/plugged')
 Plug 'crusoexia/vim-monokai'
 Plug 'nanotech/jellybeans.vim'
